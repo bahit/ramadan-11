@@ -1,4 +1,5 @@
 import { Component, h } from "@stencil/core";
+import { today } from "../../helpers/utils";
 
 @Component({
   tag: "app-home",
@@ -14,6 +15,9 @@ export class AppHome {
       </ion-header>,
 
       <ion-content class="ion-padding">
+        <ion-text color="medium">
+          <h5 class="mute">Date today: {today()} </h5>
+        </ion-text>
         <p>
           Welcome to Ramadan 11, a Progressive Web Application (PWA) that helps
           you in your Ramadan prayer for Terawih and Witir. This PWA focuses on
