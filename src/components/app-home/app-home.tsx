@@ -51,13 +51,13 @@ export class AppHome {
         </ol>
         <p>Note: *two raka'at together. **one raka'at</p>
         <ion-button href="/main" expand="block">
-          Lets us pray
+          Lets us pray (Terawih 8 & Witir 3)
         </ion-button>
         <ion-button href="/terawih" expand="block">
-          Terawih 8 Raka'at
+          Terawih 8 Raka'at Only
         </ion-button>
         <ion-button href="/witir" expand="block">
-          Witir 3 Raka'at
+          Witir 3 Raka'at Only
         </ion-button>
       </ion-content>,
     ];
