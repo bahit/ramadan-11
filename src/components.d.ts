@@ -6,6 +6,8 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface AppEssential {
+    }
     interface AppHome {
     }
     interface AppMain {
@@ -21,6 +23,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLAppEssentialElement extends Components.AppEssential, HTMLStencilElement {
+    }
+    var HTMLAppEssentialElement: {
+        prototype: HTMLAppEssentialElement;
+        new (): HTMLAppEssentialElement;
+    };
     interface HTMLAppHomeElement extends Components.AppHome, HTMLStencilElement {
     }
     var HTMLAppHomeElement: {
@@ -58,6 +66,7 @@ declare global {
         new (): HTMLAppWitirElement;
     };
     interface HTMLElementTagNameMap {
+        "app-essential": HTMLAppEssentialElement;
         "app-home": HTMLAppHomeElement;
         "app-main": HTMLAppMainElement;
         "app-profile": HTMLAppProfileElement;
@@ -67,6 +76,8 @@ declare global {
     }
 }
 declare namespace LocalJSX {
+    interface AppEssential {
+    }
     interface AppHome {
     }
     interface AppMain {
@@ -81,6 +92,7 @@ declare namespace LocalJSX {
     interface AppWitir {
     }
     interface IntrinsicElements {
+        "app-essential": AppEssential;
         "app-home": AppHome;
         "app-main": AppMain;
         "app-profile": AppProfile;
@@ -93,6 +105,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "app-essential": LocalJSX.AppEssential & JSXBase.HTMLAttributes<HTMLAppEssentialElement>;
             "app-home": LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
             "app-main": LocalJSX.AppMain & JSXBase.HTMLAttributes<HTMLAppMainElement>;
             "app-profile": LocalJSX.AppProfile & JSXBase.HTMLAttributes<HTMLAppProfileElement>;

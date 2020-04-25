@@ -53,6 +53,9 @@ export class AppHome {
         <ion-button href="/main" expand="block">
           Lets us pray (Terawih 8 & Witir 3)
         </ion-button>
+        <ion-button href="/essential" expand="block">
+          Compact: Lets us pray (Terawih 8 & Witir 3)
+        </ion-button>
         <ion-button href="/terawih" expand="block">
           Terawih 8 Raka'at Only
         </ion-button>
