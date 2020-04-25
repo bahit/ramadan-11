@@ -1,6 +1,6 @@
 # Ramadan 11
 
-Ramadan 11 is a PWA website powered using Ionic PWA Toolkit. This progressive web app (PWA) is for helping fellow muslim and muslimah in doing their Ramadan Terawih and Witir prayer by showing clear instructions and steps on which surah to read on each raka'at.
+Ramadan 11 is a progressive web app (PWA) is for helping fellow muslim and muslimah in doing their Ramadan Terawih and Witir prayer by showing clear instructions and steps on which surah to read on each raka'at. Ramadan 11 is a PWA website powered using Ionic PWA Toolkit.
 
 ## Why 11?
 
