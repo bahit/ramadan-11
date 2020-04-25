@@ -33,25 +33,25 @@ export class AppHome {
         <h2>Terawih</h2>
         <p>Number below indicate raka'at</p>
         <ol>
-          <li>Al Fatihah + al-Takathur</li>
-          <li>Al Fatihah + al-Iklas</li>
-          <li>Al Fatihah + al-Asr</li>
-          <li>Al Fatihah + al-Iklas</li>
-          <li>Al Fatihah + al-Humazah</li>
-          <li>Al Fatihah + al-Iklas</li>
-          <li>Al Fatihah + al-Fill</li>
-          <li>Al Fatihah + al-Iklas</li>
+          <li>Al-Fatihah + At-Takathur</li>
+          <li>Al-Fatihah + Al-Ikhlaas</li>
+          <li>Al-Fatihah + Al-Asr</li>
+          <li>Al-Fatihah + Al-Ikhlaas</li>
+          <li>Al-Fatihah + Al-Humaza</li>
+          <li>Al-Fatihah + Al-Ikhlaas</li>
+          <li>Al-Fatihah + Al-Fil</li>
+          <li>Al-Fatihah + Al-Ikhlaas</li>
         </ol>
         <h2>Witir</h2>
         <p>Number below indicate raka'at</p>
         <ol>
-          <li>Al Fatihah + al a'la*</li>
-          <li>Al Fatihah + al-Iklas*</li>
-          <li>Al Fatihah + al-Iklas + al Falaq + An nas**</li>
+          <li>Al-Fatihah + al a'la*</li>
+          <li>Al-Fatihah + Al-Ikhlaas*</li>
+          <li>Al-Fatihah + Al-Ikhlaas + al Falaq + An nas**</li>
         </ol>
         <p>Note: *two raka'at together. **one raka'at</p>
-        <ion-button href="/profile/ionic" expand="block">
-          Profile page
+        <ion-button href="/main" expand="block">
+          Lets us pray
         </ion-button>
       </ion-content>,
     ];
