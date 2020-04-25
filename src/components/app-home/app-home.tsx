@@ -45,13 +45,16 @@ export class AppHome {
         <h2>Witir</h2>
         <p>Number below indicate raka'at</p>
         <ol>
-          <li>Al-Fatihah + al a'la*</li>
+          <li>Al-Fatihah + Al-A'la*</li>
           <li>Al-Fatihah + Al-Ikhlaas*</li>
-          <li>Al-Fatihah + Al-Ikhlaas + al Falaq + An nas**</li>
+          <li>Al-Fatihah + Al-Ikhlaas + Al-Falaq + An-Nas**</li>
         </ol>
         <p>Note: *two raka'at together. **one raka'at</p>
         <ion-button href="/main" expand="block">
           Lets us pray
+        </ion-button>
+        <ion-button href="/witir" expand="block">
+          Witir 3 Raka'at
         </ion-button>
       </ion-content>,
     ];

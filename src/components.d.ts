@@ -15,6 +15,8 @@ export namespace Components {
     }
     interface AppRoot {
     }
+    interface AppWitir {
+    }
 }
 declare global {
     interface HTMLAppHomeElement extends Components.AppHome, HTMLStencilElement {
@@ -41,11 +43,18 @@ declare global {
         prototype: HTMLAppRootElement;
         new (): HTMLAppRootElement;
     };
+    interface HTMLAppWitirElement extends Components.AppWitir, HTMLStencilElement {
+    }
+    var HTMLAppWitirElement: {
+        prototype: HTMLAppWitirElement;
+        new (): HTMLAppWitirElement;
+    };
     interface HTMLElementTagNameMap {
         "app-home": HTMLAppHomeElement;
         "app-main": HTMLAppMainElement;
         "app-profile": HTMLAppProfileElement;
         "app-root": HTMLAppRootElement;
+        "app-witir": HTMLAppWitirElement;
     }
 }
 declare namespace LocalJSX {
@@ -58,11 +67,14 @@ declare namespace LocalJSX {
     }
     interface AppRoot {
     }
+    interface AppWitir {
+    }
     interface IntrinsicElements {
         "app-home": AppHome;
         "app-main": AppMain;
         "app-profile": AppProfile;
         "app-root": AppRoot;
+        "app-witir": AppWitir;
     }
 }
 export { LocalJSX as JSX };
@@ -73,6 +85,7 @@ declare module "@stencil/core" {
             "app-main": LocalJSX.AppMain & JSXBase.HTMLAttributes<HTMLAppMainElement>;
             "app-profile": LocalJSX.AppProfile & JSXBase.HTMLAttributes<HTMLAppProfileElement>;
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
+            "app-witir": LocalJSX.AppWitir & JSXBase.HTMLAttributes<HTMLAppWitirElement>;
         }
     }
 }
