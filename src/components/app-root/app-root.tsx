@@ -12,6 +12,7 @@ export class AppRoot {
           <ion-route url="/" component="app-home" />
           <ion-route url="/profile/:name" component="app-profile" />
           <ion-route url="/main/" component="app-main" />
+          <ion-route url="/terawih/" component="app-terawih" />
           <ion-route url="/witir/" component="app-witir" />
         </ion-router>
         <ion-nav />

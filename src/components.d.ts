@@ -15,6 +15,8 @@ export namespace Components {
     }
     interface AppRoot {
     }
+    interface AppTerawih {
+    }
     interface AppWitir {
     }
 }
@@ -43,6 +45,12 @@ declare global {
         prototype: HTMLAppRootElement;
         new (): HTMLAppRootElement;
     };
+    interface HTMLAppTerawihElement extends Components.AppTerawih, HTMLStencilElement {
+    }
+    var HTMLAppTerawihElement: {
+        prototype: HTMLAppTerawihElement;
+        new (): HTMLAppTerawihElement;
+    };
     interface HTMLAppWitirElement extends Components.AppWitir, HTMLStencilElement {
     }
     var HTMLAppWitirElement: {
@@ -54,6 +62,7 @@ declare global {
         "app-main": HTMLAppMainElement;
         "app-profile": HTMLAppProfileElement;
         "app-root": HTMLAppRootElement;
+        "app-terawih": HTMLAppTerawihElement;
         "app-witir": HTMLAppWitirElement;
     }
 }
@@ -67,6 +76,8 @@ declare namespace LocalJSX {
     }
     interface AppRoot {
     }
+    interface AppTerawih {
+    }
     interface AppWitir {
     }
     interface IntrinsicElements {
@@ -74,6 +85,7 @@ declare namespace LocalJSX {
         "app-main": AppMain;
         "app-profile": AppProfile;
         "app-root": AppRoot;
+        "app-terawih": AppTerawih;
         "app-witir": AppWitir;
     }
 }
@@ -85,6 +97,7 @@ declare module "@stencil/core" {
             "app-main": LocalJSX.AppMain & JSXBase.HTMLAttributes<HTMLAppMainElement>;
             "app-profile": LocalJSX.AppProfile & JSXBase.HTMLAttributes<HTMLAppProfileElement>;
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
+            "app-terawih": LocalJSX.AppTerawih & JSXBase.HTMLAttributes<HTMLAppTerawihElement>;
             "app-witir": LocalJSX.AppWitir & JSXBase.HTMLAttributes<HTMLAppWitirElement>;
         }
     }
