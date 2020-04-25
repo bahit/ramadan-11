@@ -53,7 +53,7 @@ export class AppHome {
         <ion-button href="/main" expand="block">
           Lets us pray (Terawih 8 & Witir 3)
         </ion-button>
-        <ion-button href="/essential" expand="block">
+        <ion-button href="/essential" expand="block" class="button-inner">
           Compact: Lets us pray (Terawih 8 & Witir 3)
         </ion-button>
         <ion-button href="/terawih" expand="block">

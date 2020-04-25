@@ -39,3 +39,7 @@
   font-size: 1.5em;
   white-space: normal;
 }
+
+.button-inner {
+  white-space: normal;
+}
