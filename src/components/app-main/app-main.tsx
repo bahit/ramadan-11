@@ -13,12 +13,12 @@ export class AppMain implements ComponentInterface {
             <ion-buttons slot="start">
               <ion-back-button defaultHref="/" />
             </ion-buttons>
-            <ion-title>Terawih 8 raka'at</ion-title>
+            <ion-title>Terawih 8 raka'at with Witir 3 raka'at</ion-title>
           </ion-toolbar>
         </ion-header>
         <ion-content class="ion-padding">
           <ion-list>
-            <ion-list-header>Raka'at 1</ion-list-header>
+            <ion-list-header>Terawih - Raka'at 1</ion-list-header>
             <ion-item>
               <ion-label>
                 Al-Fatihah
@@ -48,7 +48,7 @@ export class AppMain implements ComponentInterface {
             </ion-item>
           </ion-list>
           <ion-list>
-            <ion-list-header>Raka'at 2</ion-list-header>
+            <ion-list-header>Terawih - Raka'at 2</ion-list-header>
             <ion-item>
               <ion-label>
                 Al-Fatihah
@@ -74,7 +74,7 @@ export class AppMain implements ComponentInterface {
             </ion-item>
           </ion-list>
           <ion-list>
-            <ion-list-header>Raka'at 3</ion-list-header>
+            <ion-list-header>Terawih - Raka'at 3</ion-list-header>
             <ion-item>
               <ion-label>
                 Al-Fatihah
@@ -100,7 +100,7 @@ export class AppMain implements ComponentInterface {
             </ion-item>
           </ion-list>
           <ion-list>
-            <ion-list-header>Raka'at 4</ion-list-header>
+            <ion-list-header>Terawih - Raka'at 4</ion-list-header>
             <ion-item>
               <ion-label>
                 Al-Fatihah
@@ -126,7 +126,7 @@ export class AppMain implements ComponentInterface {
             </ion-item>
           </ion-list>
           <ion-list>
-            <ion-list-header>Raka'at 5</ion-list-header>
+            <ion-list-header>Terawih - Raka'at 5</ion-list-header>
             <ion-item>
               <ion-label>
                 Al-Fatihah
@@ -157,7 +157,7 @@ export class AppMain implements ComponentInterface {
             </ion-item>
           </ion-list>
           <ion-list>
-            <ion-list-header>Raka'at 6</ion-list-header>
+            <ion-list-header>Terawih - Raka'at 6</ion-list-header>
             <ion-item>
               <ion-label>
                 Al-Fatihah
@@ -183,7 +183,7 @@ export class AppMain implements ComponentInterface {
             </ion-item>
           </ion-list>
           <ion-list>
-            <ion-list-header>Raka'at 7</ion-list-header>
+            <ion-list-header>Terawih - Raka'at 7</ion-list-header>
             <ion-item>
               <ion-label>
                 Al-Fatihah
@@ -211,7 +211,7 @@ export class AppMain implements ComponentInterface {
             </ion-item>
           </ion-list>
           <ion-list>
-            <ion-list-header>Raka'at 8</ion-list-header>
+            <ion-list-header>Terawih - Raka'at 8</ion-list-header>
             <ion-item>
               <ion-label>
                 Al-Fatihah
@@ -232,6 +232,119 @@ export class AppMain implements ComponentInterface {
                   <br /> (2) اللَّهُ الصَّمَدُ
                   <br /> (3) لَمْ يَلِدْ وَلَمْ يُولَدْ
                   <br /> (4) وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ
+                </div>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-list>
+            <ion-list-header>Witir - Raka'at 1</ion-list-header>
+            <ion-item>
+              <ion-label>
+                Al-Fatihah
+                <div class="Arabic">
+                  (1) بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                  <br /> (2) الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
+                  <br /> (3) الرَّحْمَٰنِ الرَّحِيمِ
+                  <br /> (4) مَالِكِ يَوْمِ الدِّينِ
+                  <br /> (5) إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+                  <br /> (6) اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ
+                  <br /> (7) صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ
+                  الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ
+                </div>
+                Al-A'la
+                <div class="Arabic">
+                  بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                  <br /> (1) سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى
+                  <br /> (2) الَّذِي خَلَقَ فَسَوَّىٰ
+                  <br /> (3) وَالَّذِي قَدَّرَ فَهَدَىٰ
+                  <br /> (4) وَالَّذِي أَخْرَجَ الْمَرْعَىٰ
+                  <br /> (5) فَجَعَلَهُ غُثَاءً أَحْوَىٰ
+                  <br /> (6) سَنُقْرِئُكَ فَلَا تَنْسَىٰ
+                  <br /> (7) إِلَّا مَا شَاءَ اللَّهُ ۚ إِنَّهُ يَعْلَمُ
+                  الْجَهْرَ وَمَا يَخْفَىٰ
+                  <br /> (8) وَنُيَسِّرُكَ لِلْيُسْرَىٰ
+                  <br /> (9) فَذَكِّرْ إِنْ نَفَعَتِ الذِّكْرَىٰ
+                  <br /> (10) سَيَذَّكَّرُ مَنْ يَخْشَىٰ
+                  <br /> (11) وَيَتَجَنَّبُهَا الْأَشْقَى
+                  <br /> (12) الَّذِي يَصْلَى النَّارَ الْكُبْرَىٰ
+                  <br /> (13) ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ
+                  <br /> (14) قَدْ أَفْلَحَ مَنْ تَزَكَّىٰ
+                  <br /> (15) وَذَكَرَ اسْمَ رَبِّهِ فَصَلَّىٰ
+                  <br /> (16) بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا
+                  <br /> (17) وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ
+                  <br /> (18) إِنَّ هَٰذَا لَفِي الصُّحُفِ الْأُولَىٰ
+                  <br /> (19) صُحُفِ إِبْرَاهِيمَ وَمُوسَىٰ
+                </div>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-list>
+            <ion-list-header>Witir - Raka'at 2</ion-list-header>
+            <ion-item>
+              <ion-label>
+                Al-Fatihah
+                <div class="Arabic">
+                  (1) بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                  <br /> (2) الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
+                  <br /> (3) الرَّحْمَٰنِ الرَّحِيمِ
+                  <br /> (4) مَالِكِ يَوْمِ الدِّينِ
+                  <br /> (5) إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+                  <br /> (6) اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ
+                  <br /> (7) صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ
+                  الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ
+                </div>
+                Al-Ikhlaas
+                <div class="Arabic">
+                  بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                  <br /> (1) قُلْ هُوَ اللَّهُ أَحَدٌ
+                  <br /> (2) اللَّهُ الصَّمَدُ
+                  <br /> (3) لَمْ يَلِدْ وَلَمْ يُولَدْ
+                  <br /> (4) وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ
+                </div>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-list>
+            <ion-list-header>Witir - Raka'at 3</ion-list-header>
+            <ion-item>
+              <ion-label>
+                Al-Fatihah
+                <div class="Arabic">
+                  (1) بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                  <br /> (2) الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
+                  <br /> (3) الرَّحْمَٰنِ الرَّحِيمِ
+                  <br /> (4) مَالِكِ يَوْمِ الدِّينِ
+                  <br /> (5) إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+                  <br /> (6) اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ
+                  <br /> (7) صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ
+                  الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ
+                </div>
+                Al-Ikhlaas
+                <div class="Arabic">
+                  بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                  <br /> (1) قُلْ هُوَ اللَّهُ أَحَدٌ
+                  <br /> (2) اللَّهُ الصَّمَدُ
+                  <br /> (3) لَمْ يَلِدْ وَلَمْ يُولَدْ
+                  <br /> (4) وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ
+                </div>
+                Al-Falaq
+                <div class="Arabic">
+                  بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                  <br /> (1) قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ
+                  <br /> (2) مِنْ شَرِّ مَا خَلَقَ
+                  <br /> (3) وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ
+                  <br /> (4) وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ
+                  <br /> (5) وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ
+                </div>
+                Al-Nas
+                <div class="Arabic">
+                  بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                  <br /> (1) قُلْ أَعُوذُ بِرَبِّ النَّاسِ
+                  <br /> (2) مَلِكِ النَّاسِ
+                  <br /> (3) إِلَٰهِ النَّاسِ
+                  <br /> (4) مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ
+                  <br /> (5) الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ
+                  <br /> (6) مِنَ الْجِنَّةِ وَالنَّاسِ
                 </div>
               </ion-label>
             </ion-item>
